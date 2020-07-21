@@ -1,6 +1,6 @@
 class App(Frame):
-    def __init__(self, master=None):
-        super().__init__(master)
+    def __init__(self, main=None):
+        super().__init__(main)
         self.pack()
 
         self.entrythingy = Entry()
